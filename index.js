@@ -17,8 +17,8 @@ const server = http.createServer((req, res) => {
   }
 });
 
-console.log('Nama: Try Setiawan Iksan\nNIM:210211060199\nTIK1032-D')
+console.log('Nama: Try Setiawan Iksan\nNIM:210211060199\nTIK1032-D');
 
 server.listen(3000, () => {
-  console.log('Server running at http://localhost:3000/?radius=5');
+  console.log('Server running at http://localhost:3000/');
 });
