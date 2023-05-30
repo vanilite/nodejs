@@ -1,10 +1,8 @@
 {
     "name": "nodejs",
     "version": "1.0.0",
-    "description": "",
+    "description": "",  
     "scripts": {
-        "build": "echo \"No build specified\" && exit 1",
-        "test": "echo \"No test specified\" && exit 1",
         "start": "node index.js"
     },
     "repository": {
@@ -17,4 +15,4 @@
         "url": "https://github.com/vanilite/nodejs/issues"
     },
     "homepage": "https://github.com/vanilite/nodejs#readme"
-}
+}   
