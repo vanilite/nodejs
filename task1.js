@@ -8,12 +8,12 @@ const server = http.createServer((req, res) => {
   if (radius === undefined) {
     res.statusCode = 400;
     res.setHeader('Content-Type', 'text/plain');
-    res.end('Error: Please provide a radius parameter in your query string.\n');
+    res.end('error: masukkan nilai radius parameter.\n');
   } else {
     const area = Math.PI * radius ** 2;
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
-    res.end(`The area of a circle with radius ${radius} is ${area}.\n`);
+    res.end(`luas lingkaran dengan radius ${radius} yaitu ${area}.\n`);
   }
 });
 
